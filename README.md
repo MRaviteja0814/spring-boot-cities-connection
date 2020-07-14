@@ -55,6 +55,8 @@ http://localhost:8080/connected?origin=Boston&destination=Newark
 http://localhost:8080/connected?origin=Boston&destination=Philadelphia
 http://localhost:8080/connected?origin=Trenton&destination=Albany
 http://localhost:8080/connected?origin=Phoenix&destination=Austin
+http://localhost:8080/connected?origin=Boston&destination=Albany
+http://localhost:8080/connected?origin=Boston&destination=Trenton
 ```
 #### Via Terminal 
 Do a cURL
