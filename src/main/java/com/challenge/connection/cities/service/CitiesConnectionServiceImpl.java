@@ -16,6 +16,6 @@ public class CitiesConnectionServiceImpl implements CitiesConnectionService {
 
     @Override
     public boolean isCitiesConnected(String origin, String destination) {
-        return citiesConnectionData.isCitiesConnected(origin.toLowerCase(), destination.toLowerCase());
+        return citiesConnectionData.isCitiesConnected(origin, destination);
     }
 }

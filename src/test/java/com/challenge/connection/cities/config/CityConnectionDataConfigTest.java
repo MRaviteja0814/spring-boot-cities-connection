@@ -35,7 +35,7 @@ class CityConnectionDataConfigTest {
 
 
     @Test
-    void cityConnectionsGraphForSuccess() {
+    void cityConnectionsGraphForSuccess() throws Exception {
 
         CityGraph cityGraph = connectionDataConfig.cityConnectionsGraph();
         assertNotNull(cityGraph);

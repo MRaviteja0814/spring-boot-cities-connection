@@ -1,6 +1,6 @@
-# Cities Connection
+# Spring-boot-Cities-Connection
 The spring boot application identifies whether two cities are connected. This service exposes a REST Api ("/connected") which accepts Origin and Destination city as input and responds back whether those cities are connected.  
-There could be a direct connection or transitive connection (intermediate city hops), both qualifies as connected.
+There could be a direct connection or series of roads connection (intermediate city hops), both qualifies as connected.
 
 ### Documentation Contents:
 1. [Summary](#summary)
@@ -48,10 +48,13 @@ mvn spring-boot:run
 ```
 **Note:** Application runs on port 8080. And, the port to run is already configured in the property file so need not have to specify in the command line. 
 
-##Test
+## Test
 #### Via Browser
 ```
 http://localhost:8080/connected?origin=Boston&destination=Newark
+http://localhost:8080/connected?origin=Boston&destination=Philadelphia
+http://localhost:8080/connected?origin=Trenton&destination=Albany
+http://localhost:8080/connected?origin=Phoenix&destination=Austin
 ```
 #### Via Terminal 
 Do a cURL
@@ -59,4 +62,5 @@ Do a cURL
 curl --location --request GET 'http://localhost:8080/connected?origin=Boston&destination=Newark'
 ```
 
-And, Unit test is written for all the classes. Spring Boot Test capability is leveraged to the fullest.
+And, Unit test is written for all the classes. **Spring Boot Test** capability is leveraged to the fullest.
+

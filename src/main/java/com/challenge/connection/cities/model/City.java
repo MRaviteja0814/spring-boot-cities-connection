@@ -7,7 +7,8 @@ public class City {
     private final String name;
 
     public City(String name) {
-        this.name = name;
+        //the city string is trimmed and converted to lower case for consistency
+        this.name = name.trim().toLowerCase();
     }
 
     @Override
