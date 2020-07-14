@@ -2,3 +2,8 @@ Boston, New York
 Philadelphia, Newark
 Newark, Boston
 Trenton, Albany
+Chicago, Phoenix
+Dallas, Austin
+Austin, Chicago
+Detroit, Memphis
+Milwaukee, Detroit
