@@ -39,9 +39,7 @@ Please look at a sample City Graph visualization @ Resources folder. This I gene
 ## Start the application
 Since Spring-boot app and the package is jar and embedded web container is used. You can start the application as a regular Java application<br></br>
 In the terminal Navigate to Main Configuration and start as a java class. If you are using any IDE you may start with the option the IDE provides.<br></br>
-<br></br>
-At same time Spring-Boot Maven plugin is included in pom.xml, so you can also start using below command.
-<br></br>
+At same time Spring-Boot Maven plugin is included in pom.xml, so you can also start using below command.<br></br>
 
 **Main Configuration Class:** com.challenge.connection.cities.CitiesConnectionsApplication
 
