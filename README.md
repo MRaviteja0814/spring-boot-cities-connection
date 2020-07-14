@@ -2,7 +2,6 @@
 The spring boot application identifies whether two cities are connected. This service exposes a REST Api ("/connected") which accepts Origin and Destination city as input and responds back whether those cities are connected.  
 There could be a direct connection or transitive connection (intermediate city hops), both qualifies as connected.
 
-
 ### Documentation Contents:
 1. [Summary](#summary)
 2. [Technologies](#technologies) 
@@ -10,7 +9,6 @@ There could be a direct connection or transitive connection (intermediate city h
 4. [Implementation](#implementation)
 5. [Start the application](#start-the-application)
 6. [Test](#test)
-
 
 ### Summary
 Provided Origin and Destination cities, this service identifies whether they are connected. 
